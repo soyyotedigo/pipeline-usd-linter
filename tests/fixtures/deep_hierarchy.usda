@@ -1,0 +1,20 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+)
+
+def Xform "Asset"
+{
+    def Xform "GrpA"
+    {
+        def Xform "GrpB"
+        {
+            def Xform "GrpC"
+            {
+                def Mesh "Body"
+                {
+                }
+            }
+        }
+    }
+}

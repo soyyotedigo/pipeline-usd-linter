@@ -1,0 +1,13 @@
+#usda 1.0
+(
+    defaultPrim = "Rig"
+    upAxis = "Y"
+)
+
+def Xform "Rig" {
+    def SkelRoot "SkelRoot" {
+        def Skeleton "Skeleton" {
+            uniform token[] joints = ["root", "root/leg_l", "root/leg_l/knee", "root/leg_r", "root/leg_r/knee"]
+        }
+    }
+}

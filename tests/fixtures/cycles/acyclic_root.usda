@@ -1,0 +1,9 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    subLayers = [@./acyclic_child.usda@]
+)
+
+def Xform "Asset"
+{
+}

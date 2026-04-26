@@ -1,0 +1,6 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+name_pattern = "^[A-Z][A-Za-z0-9_]*$"
+broken = [

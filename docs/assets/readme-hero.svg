@@ -1,0 +1,54 @@
+<svg width="1600" height="520" viewBox="0 0 1600 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">pipeline-usd-linter</title>
+  <desc id="desc">Abstract banner for the pipeline-usd-linter project.</desc>
+  <rect width="1600" height="520" rx="28" fill="#0B1020"/>
+  <rect x="0" y="0" width="1600" height="520" rx="28" fill="url(#bg)" fill-opacity="0.95"/>
+  <circle cx="1320" cy="110" r="210" fill="#60A5FA" fill-opacity="0.14"/>
+  <circle cx="1480" cy="430" r="220" fill="#22C55E" fill-opacity="0.12"/>
+  <circle cx="220" cy="470" r="180" fill="#A78BFA" fill-opacity="0.10"/>
+
+  <g opacity="0.9">
+    <rect x="88" y="88" width="460" height="316" rx="24" fill="#11182B" stroke="#2B3757"/>
+    <rect x="124" y="132" width="148" height="28" rx="14" fill="#1E293B"/>
+    <rect x="292" y="132" width="112" height="28" rx="14" fill="#102C4A"/>
+    <rect x="124" y="184" width="290" height="18" rx="9" fill="#324267"/>
+    <rect x="124" y="218" width="220" height="18" rx="9" fill="#324267"/>
+    <rect x="124" y="276" width="140" height="64" rx="18" fill="#0D2741" stroke="#2563EB"/>
+    <text x="194" y="315" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">USD</text>
+    <rect x="292" y="276" width="200" height="64" rx="18" fill="#10261C" stroke="#22C55E"/>
+    <text x="392" y="315" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="24" text-anchor="middle">lint rules</text>
+  </g>
+
+  <g opacity="0.6">
+    <path d="M610 186H736" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
+    <path d="M736 186H776" stroke="#60A5FA" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="790" cy="186" r="10" fill="#60A5FA"/>
+    <path d="M610 266H836" stroke="#22C55E" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="850" cy="266" r="10" fill="#22C55E"/>
+    <path d="M610 346H936" stroke="#A78BFA" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="950" cy="346" r="10" fill="#A78BFA"/>
+  </g>
+
+  <text x="650" y="170" fill="#E5EEFF" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="700">pipeline-usd-linter</text>
+  <text x="650" y="235" fill="#9FB0D1" font-family="Segoe UI, Arial, sans-serif" font-size="28">Validate OpenUSD assets before they break downstream tools.</text>
+
+  <g>
+    <rect x="650" y="290" width="160" height="46" rx="23" fill="#0F1B33" stroke="#2563EB"/>
+    <text x="730" y="320" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">CLI-first</text>
+    <rect x="828" y="290" width="170" height="46" rx="23" fill="#10261C" stroke="#22C55E"/>
+    <text x="913" y="320" fill="#BBF7D0" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">Rule-based</text>
+    <rect x="1016" y="290" width="152" height="46" rx="23" fill="#25153E" stroke="#A78BFA"/>
+    <text x="1092" y="320" fill="#DDD6FE" font-family="Segoe UI, Arial, sans-serif" font-size="22" text-anchor="middle">CI-ready</text>
+  </g>
+
+  <text x="650" y="382" fill="#D6E0F5" font-family="Consolas, 'Courier New', monospace" font-size="24">usd-linter assets/ --task rig --format json</text>
+  <text x="650" y="424" fill="#7DD3FC" font-family="Consolas, 'Courier New', monospace" font-size="22">ERROR | unresolved_reference | /Asset/Geo | missing referenced file</text>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.55" stop-color="#0B1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>

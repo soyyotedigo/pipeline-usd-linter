@@ -1,0 +1,25 @@
+[lint]
+# Output format for the report: text | json
+format = "text"
+
+# Lowest severity that should fail the process: none | info | warning | error
+fail_on = "warning"
+
+# File globs collected when the target is a directory.
+include_patterns = ["*.usd", "*.usda", "*.usdc"]
+
+[rules]
+# Enable reference validation.
+check_references = true
+
+# Enable warnings for suspicious `over` prims.
+check_suspicious_over = true
+
+# If present, activate prim-name validation with this regex.
+name_pattern = "^[A-Za-z]+_[A-Za-z]+_[A-Z]{3}$"
+
+# If present, activate root-prim validation with this allow-list.
+allowed_root_prims = ["Asset", "Root", "World"]
+
+# If present, activate required stage metadata validation.
+required_stage_metadata = ["defaultPrim", "upAxis"]

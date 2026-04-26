@@ -1,0 +1,6 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+# Run only the reference check.
+check_references = true

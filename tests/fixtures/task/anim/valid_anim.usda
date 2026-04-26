@@ -1,0 +1,11 @@
+#usda 1.0
+(
+    defaultPrim = "Anim"
+)
+
+def Xform "Anim" {
+    def SkelRoot "SkelRoot" {
+        def SkelAnimation "AnimData" {
+        }
+    }
+}

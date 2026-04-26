@@ -1,0 +1,11 @@
+[lint]
+format = "text"
+fail_on = "info"
+include_patterns = ["*.usda"]
+
+[rules]
+check_references = true
+check_suspicious_over = true
+allowed_root_prims = ["Asset"]
+required_stage_metadata = ["defaultPrim", "upAxis"]
+name_pattern = "^[A-Z][A-Za-z0-9_]*$"

@@ -1,0 +1,16 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    subLayers = [@/abs/posix/look.usda@]
+)
+
+def Xform "Asset" (
+    prepend payload = @C:/absolute/windows/payload.usda@
+)
+{
+    def Mesh "Body" (
+        prepend references = @file:///abs/reference/body.usda@
+    )
+    {
+    }
+}

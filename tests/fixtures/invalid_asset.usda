@@ -1,0 +1,17 @@
+#usda 1.0
+(
+    upAxis = "Y"
+)
+
+def Xform "BadRoot"
+{
+    def Mesh "badMesh" (
+        prepend references = @./missing_layer.usda@
+    )
+    {
+    }
+
+    over "Looks"
+    {
+    }
+}

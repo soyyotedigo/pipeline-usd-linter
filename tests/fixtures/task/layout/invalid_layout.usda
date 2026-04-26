@@ -1,0 +1,9 @@
+#usda 1.0
+(
+    defaultPrim = "Scene"
+)
+
+def Scope "Scene" {
+    def Camera "renderCam01" {
+    }
+}

@@ -1,0 +1,10 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+)
+
+def Xform "Asset" (
+    prepend payload = @./payloads/empty_payload.usda@
+)
+{
+}

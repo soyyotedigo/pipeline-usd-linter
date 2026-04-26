@@ -1,0 +1,16 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    subLayers = [@./missing_sublayer.usda@]
+)
+
+def Xform "Asset" (
+    prepend payload = @./missing_payload.usda@
+)
+{
+    def Mesh "Body" (
+        prepend references = @./missing_reference.usda@
+    )
+    {
+    }
+}

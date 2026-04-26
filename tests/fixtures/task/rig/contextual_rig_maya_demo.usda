@@ -1,0 +1,13 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    upAxis = "Y"
+)
+
+def Xform "Asset" {
+    def SkelRoot "SkelRoot" {
+        def Skeleton "Skeleton" {
+            uniform token[] joints = ["root", "root/spine", "root/spine/chest", "root/spine/chest/neck", "root/spine/chest/neck/head"]
+        }
+    }
+}

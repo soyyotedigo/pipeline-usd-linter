@@ -1,0 +1,3 @@
+[rules]
+# Validates prim naming with a custom regex.
+name_pattern = "^[A-Z][A-Za-z0-9_]*$"

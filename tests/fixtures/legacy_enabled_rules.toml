@@ -1,0 +1,2 @@
+[rules]
+enabled = ["invalid_prim_name"]

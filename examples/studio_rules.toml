@@ -1,0 +1,14 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+check_references = false
+check_suspicious_over = false
+required_stage_metadata = ["upAxis"]
+allowed_root_prims = ["Asset", "Root", "World"]
+
+[task_rig]
+# Aquí va la config específica de rig
+# Accesible en reglas como context.config.task_config
+require_skeleton = true
+max_joint_depth = 5

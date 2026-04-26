@@ -1,0 +1,4 @@
+[rules]
+max_stage_file_size_bytes = 0
+max_prim_count = 0
+max_payload_count = 0

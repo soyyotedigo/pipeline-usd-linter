@@ -1,0 +1,7 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+allowed_root_prims = ["BadRoot"]
+required_stage_metadata = ["upAxis"]
+name_pattern = "^[A-Za-z][A-Za-z0-9_ ]*$"

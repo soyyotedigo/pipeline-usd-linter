@@ -1,0 +1,11 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+# Full studio setup with all configurable parameters.
+check_references = false
+check_suspicious_over = false
+allowed_root_prims = ["Asset", "Root", "World"]
+required_stage_metadata = ["defaultPrim", "upAxis"]
+name_pattern = "^[A-Za-z]+_[A-Za-z]+_[A-Z]{3}$"
+

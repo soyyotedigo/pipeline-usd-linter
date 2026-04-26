@@ -1,0 +1,16 @@
+[lint]
+fail_on = "warning"
+
+[rules]
+# Full studio setup with all configurable parameters.
+check_references = false
+check_suspicious_over = false
+allowed_root_prims = ["Asset", "Root", "World"]
+
+
+[task_rig]
+# Aquí va la config específica de rig
+# Accesible en reglas como context.config.task_config
+require_skeleton = true
+max_joint_depth = 5
+joint_name_pattern = "^[A-Za-z]+_[A-Za-z]+$"

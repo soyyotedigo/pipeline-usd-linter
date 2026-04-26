@@ -1,0 +1,7 @@
+[lint]
+fail_on = "error"
+
+[project_rules]
+asset_prefix = "Hero_"
+file_name_pattern = "^Hero_[A-Za-z0-9_]+$"
+forbidden_prim_types = ["PointInstancer"]

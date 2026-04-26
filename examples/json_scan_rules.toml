@@ -1,0 +1,11 @@
+[lint]
+format = "json"
+fail_on = "warning"
+include_patterns = ["*.usd", "*.usda"]
+
+[rules]
+check_references = false
+check_suspicious_over = false
+allowed_root_prims = ["Root", "World"]
+required_stage_metadata = ["defaultPrim"]
+name_pattern = "^[A-Za-z][A-Za-z0-9_]*$"

@@ -1,0 +1,16 @@
+#usda 1.0
+(
+    defaultPrim = "Asset"
+    subLayers = [@./refs/materials.usda@]
+)
+
+def Xform "Asset" (
+    prepend payload = @./refs/materials.usda@
+)
+{
+    def Mesh "Body" (
+        prepend references = @./refs/materials.usda@
+    )
+    {
+    }
+}

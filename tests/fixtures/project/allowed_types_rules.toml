@@ -1,0 +1,5 @@
+[lint]
+fail_on = "error"
+
+[project_rules]
+allowed_prim_types = ["Xform", "Mesh"]

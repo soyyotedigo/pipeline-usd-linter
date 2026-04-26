@@ -1,0 +1,9 @@
+[lint]
+fail_on = "error"
+
+[rules]
+# Declarative mode: every rule used here is listed explicitly.
+check_references = true
+allowed_root_prims = ["Asset", "Root", "World", "Set"]
+required_stage_metadata = ["defaultPrim"]
+name_pattern = "^[A-Za-z][A-Za-z0-9_ ]*$"

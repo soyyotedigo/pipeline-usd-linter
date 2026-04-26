@@ -1,0 +1,16 @@
+[project]
+name = "pipeline-usd-linter"
+verbose = true
+
+[python]
+version = "3.12"
+entrypoint = "main.py"
+
+[paths]
+
+input = "./data"
+output = "./dist"
+
+[lint]
+strict = true
+rules = ["imports", "naming", "format"]
